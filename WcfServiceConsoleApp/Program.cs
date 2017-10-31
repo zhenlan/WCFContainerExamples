@@ -19,8 +19,8 @@ namespace WcfServiceConsoleApp
                 {
                     Console.WriteLine("The service is ready at {0}", uri);
                 }
-                //Console.WriteLine("Press <Enter> to stop the service");
-                //Console.ReadLine();
+
+                // Leave the servicing running
                 Console.WriteLine("The service is running...");
                 Thread.Sleep(-1);
             }
